@@ -5,10 +5,16 @@
     padding:0;
     text-transform: capitalize;
 }
+body{
+    background-color: gray;
+}
 
 .title {
     text-align:center;
-    background-color:yellowgreen;
+    background-color:rgb(187, 230, 101, 0.9);
+    backdrop-filter: blur(5px);
+    position:sticky;
+    top:0;
 
 }
 #cocktails-info{
@@ -20,11 +26,16 @@
     flex-wrap: wrap;
     gap:25px;
 }
+img{
+    border-radius: 10px;
+    margin:10px;
+}
 #cocktails-info>div{
     width: 25rem;
-    height: 35rem;
+    height: 40rem;
     background-color: antiquewhite;
-
+    border-radius: 25px;
+    overflow: hidden;
 }
 .details{
     color:red;

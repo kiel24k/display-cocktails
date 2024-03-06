@@ -15,13 +15,8 @@ xhr.onload = () => {
             '<br>' +
             '</ul>' +
             '</div>'
-
     }
     document.getElementById('cocktails-info').innerHTML = output
-
-
-
-
 
 
 }

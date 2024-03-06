@@ -13,4 +13,5 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-Route::get('/', [cockTail::class, 'index'])->name('index');
+route::get('json1', [cockTail::class, 'json1'])->name('index');
+route::get('json2', [cockTail::class,'json2'])->name('json2');
